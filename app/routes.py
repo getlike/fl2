@@ -21,7 +21,7 @@ def index():
             'body': 'Какая гадость эта ваша заливная рыба!!'
         }
     ]
-    return render_template('index.html', title='HOME', user=user, posts=posts)
+    return render_template('index.html', title='HOME in return', user=user, posts=posts)
 
 
 @app.route('/login', methods=['GET', 'POST'])
